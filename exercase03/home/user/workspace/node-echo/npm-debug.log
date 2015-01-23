@@ -1,0 +1,146 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Administrator\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\npm-3892-LM3uODdb\\1417079546032-0.9867716901935637\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\tmp.tgz
+13 verbose folder .
+14 info prepublish node-echo@1.0.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Administrator\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile e8ccfb86-46032-0-9867716901935637-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\tmp.tgz
+18 verbose lock tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\tmp.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\e8ccfb86-46032-0-9867716901935637-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile e8ccfb86-46032-0-9867716901935637-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\tmp.tgz
+22 silly lockFile e8ccfb86-46032-0-9867716901935637-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\tmp.tgz
+23 verbose tar unpack C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\tmp.tgz
+24 silly lockFile 6f4e6644-46032-0-9867716901935637-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\package
+25 verbose lock tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\package C:\Users\Administrator\AppData\Roaming\npm-cache\6f4e6644-46032-0-9867716901935637-package.lock
+26 silly lockFile e8ccfb86-46032-0-9867716901935637-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\tmp.tgz
+27 verbose lock tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\tmp.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\e8ccfb86-46032-0-9867716901935637-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+33 silly gunzTarPerm extractEntry bin/echo.js
+34 silly gunzTarPerm modified mode [ 'bin/echo.js', 438, 420 ]
+35 silly gunzTarPerm extractEntry lib/node-echo.js
+36 silly gunzTarPerm modified mode [ 'lib/node-echo.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry tests/argv.js
+38 silly gunzTarPerm modified mode [ 'tests/argv.js', 438, 420 ]
+39 silly lockFile 6f4e6644-46032-0-9867716901935637-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\package
+40 silly lockFile 6f4e6644-46032-0-9867716901935637-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\package
+41 silly lockFile e8ccfb86-46032-0-9867716901935637-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\tmp.tgz
+42 silly lockFile e8ccfb86-46032-0-9867716901935637-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\tmp.tgz
+43 verbose tar pack [ 'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\node-echo\\1.0.0\\package.tgz',
+43 verbose tar pack   'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\npm-3892-LM3uODdb\\1417079546032-0.9867716901935637\\package' ]
+44 verbose tarball C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package.tgz
+45 verbose folder C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\package
+46 silly lockFile 6f4e6644-46032-0-9867716901935637-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\package
+47 verbose lock tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\package C:\Users\Administrator\AppData\Roaming\npm-cache\6f4e6644-46032-0-9867716901935637-package.lock
+48 silly lockFile 3e60129b-ache-node-echo-1-0-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package.tgz
+49 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\3e60129b-ache-node-echo-1-0-0-package-tgz.lock
+50 silly lockFile 6f4e6644-46032-0-9867716901935637-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\package
+51 silly lockFile 6f4e6644-46032-0-9867716901935637-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-3892-LM3uODdb\1417079546032-0.9867716901935637\package
+52 silly lockFile 3e60129b-ache-node-echo-1-0-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package.tgz
+53 silly lockFile 3e60129b-ache-node-echo-1-0-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package.tgz
+54 silly lockFile 7f567444-pm-cache-node-echo-1-0-0-package C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package
+55 verbose lock C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package C:\Users\Administrator\AppData\Roaming\npm-cache\7f567444-pm-cache-node-echo-1-0-0-package.lock
+56 silly lockFile 7f567444-pm-cache-node-echo-1-0-0-package C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package
+57 silly lockFile 7f567444-pm-cache-node-echo-1-0-0-package C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package
+58 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package.tgz
+59 silly lockFile abd0725a-pm-cache-node-echo-1-0-0-package tar://C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package
+60 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package C:\Users\Administrator\AppData\Roaming\npm-cache\abd0725a-pm-cache-node-echo-1-0-0-package.lock
+61 silly lockFile 3e60129b-ache-node-echo-1-0-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package.tgz
+62 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\3e60129b-ache-node-echo-1-0-0-package-tgz.lock
+63 silly gunzTarPerm modes [ '755', '644' ]
+64 silly gunzTarPerm extractEntry package.json
+65 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+68 silly gunzTarPerm extractEntry bin/echo.js
+69 silly gunzTarPerm modified mode [ 'bin/echo.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry lib/node-echo.js
+71 silly gunzTarPerm modified mode [ 'lib/node-echo.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry tests/argv.js
+73 silly gunzTarPerm modified mode [ 'tests/argv.js', 438, 420 ]
+74 silly lockFile abd0725a-pm-cache-node-echo-1-0-0-package tar://C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package
+75 silly lockFile abd0725a-pm-cache-node-echo-1-0-0-package tar://C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package
+76 silly lockFile 3e60129b-ache-node-echo-1-0-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package.tgz
+77 silly lockFile 3e60129b-ache-node-echo-1-0-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package.tgz
+78 verbose chmod C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package.tgz 644
+79 silly chown skipping for windows C:\Users\Administrator\AppData\Roaming\npm-cache\node-echo\1.0.0\package.tgz
+80 silly lockFile 3a52ce78- .
+81 silly lockFile 3a52ce78- .
+82 silly publish { name: 'node-echo',
+82 silly publish   version: '1.0.0',
+82 silly publish   dependencies: { argv: '0.0.1' },
+82 silly publish   main: './lib/node-echo.js',
+82 silly publish   bin: { echo: './bin/echo' },
+82 silly publish   readme: 'ERROR: No README data found!',
+82 silly publish   readmeFilename: 'README.md',
+82 silly publish   _id: 'node-echo@1.0.0',
+82 silly publish   dist: { shasum: 'a3fafc6d6db5c027297d07bc38ed18db653aee6f' },
+82 silly publish   _from: '.' }
+83 verbose url raw node-echo
+84 verbose url resolving [ 'http://registry.npmjs.org/', './node-echo' ]
+85 verbose url resolved http://registry.npmjs.org/node-echo
+86 info trying registry request attempt 1 at 17:12:26
+87 http PUT http://registry.npmjs.org/node-echo
+88 http 403 http://registry.npmjs.org/node-echo
+89 error publish Failed PUT 403
+90 error Error: forbidden user: xiaomomo not authorized to modify node-echo
+90 error Deleted: description
+90 error Changed: dist-tags.latest "0.1.1" -> "1.0.0"
+90 error Added: versions.1.0.0
+90 error Changed: readme "# node-echo [![NPM version](https://badge.fury.io/js/node-echo.png)](http://badge.fury.io/js/node-echo) [![Build Status](https://travis-ci.org/Treri/node-echo.png)](https://travis-ci.org/Treri/node-echo) [![Dependencies Status](https://david-dm.org/Treri/node-echo.png)](https://david-dm.org/Treri/node-echo)\u000a\u000aA shell like echo for node.js with sync and async method\u000a\u000a[![node-echo](https://nodei.co/npm/node-echo.png?compact=true)](https://nodei.co/npm/node-echo)\u000a\u000a## Usage:\u000a\u000a    var echo = require('node-echo');\u000a    echo(args...);\u000a    // echo.sync(args...);\u000a\u000a### to `stdout` or `stderr`\u000a\u000a##### echo(anything[, echo.STDOUT|STDERR[, callback]])\u000aecho anything to `stdout` or `stderr`, with or without a callback\u000a\u000a##### echo.sync(anything[, echo.STDOUT|STDERR])\u000async version, echo anything to `stdout` or `stderr`\u000a\u000a### to local file\u000a\u000a##### echo(anything, flag, fileName, callback)\u000aecho anything to localfile.\u000a\u000aflag can be `>` or `>>`, and its default to `>>`, so echo default likes shell's\u000a`echo 'content' >> file`\u000a\u000a##### echo.sync(anything, flag, fileName)\u000async version, echo anything to localfile.\u000a\u000aflag can be `>` or `>>`, and its default to `>>`, so echo default likes shell's\u000a`echo 'content' >> file`\u000a\u000a## Test:\u000a\u000a    npm install\u000a    npm test\u000a\u000a## License\u000a\u000aThe MIT License (MIT)\u000a\u000aCopyright (c) 2013 Treri treri.liu@gmail.com\u000a\u000aPermission is hereby granted, free of charge, to any person obtaining a copy\u000aof this software and associated documentation files (the \"Software\"), to deal\u000ain the Software without restriction, including without limitation the rights\u000ato use, copy, modify, merge, publish, distribute, sublicense, and/or sell\u000acopies of the Software, and to permit persons to whom the Software is\u000afurnished to do so, subject to the following conditions:\u000a\u000aThe above copyright notice and this permission notice shall be included in\u000aall copies or substantial portions of the Software.\u000a\u000aTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\u000aIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\u000aFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\u000aAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\u000aLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\u000aOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\u000aTHE SOFTWARE.\u000a" -> "ERROR: No README data found!"
+90 error Changed: time.modified "2014-08-15T03:11:42.697Z" -> "2014-11-27T09:13:11.687Z"
+90 error Added: time.1.0.0
+90 error Deleted: homepage
+90 error Deleted: keywords
+90 error Deleted: repository
+90 error Deleted: author
+90 error Deleted: bugs
+90 error Deleted: license
+90 error Added: _attachments: node-echo
+90 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:237:14)
+90 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+90 error     at Request.EventEmitter.emit (events.js:98:17)
+90 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+90 error     at Request.EventEmitter.emit (events.js:117:20)
+90 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+90 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+90 error     at _stream_readable.js:920:16
+90 error     at process._tickCallback (node.js:415:13)
+91 error If you need help, you may report this *entire* log,
+91 error including the npm and node versions, at:
+91 error     <http://github.com/npm/npm/issues>
+92 error System Windows_NT 6.1.7601
+93 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+94 error cwd E:\工作\我的项目\node\node-study\exercase03\home\user\workspace\node-echo
+95 error node -v v0.10.26
+96 error npm -v 1.4.3
+97 verbose exit [ 1, true ]
